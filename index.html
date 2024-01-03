@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Om Aximani - Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div class="responsive-nav">
+      <div class="navbar-1">
+        <label>
+          <input type="checkbox">
+          <span class="menu"> <span class="hamburger"></span> </span>
+          <ul>
+            <li> <a href="#"   onclick="navigateTo('link1')">Introduction</a> </li>
+            <li> <a href="#projects"   onclick="navigateTo('link2')">Projects</a> </li>
+            <li> <a href="#works"   onclick="navigateTo('link3')">works</a> </li>
+          </ul>
+          </label>
+      </div>
+    </div>
+    <header id="header">
+      <nav id="navbar">
+        <ul>
+          <li class="nav-item"><a href="#">Introduction</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#works">Works</a></li>
+        </ul>
+        <hr id="header-bottom" />
+      </nav>
+    </header>
+    <main id="main">
+      <section id="introduction">
+        <p class="paragraph" id="hero-p">Hi, my name is</p>
+        <h1 class="heading-2">Om Aximani</h1>
+        <p id="bio" class="paragraph">
+          I am a developer and tech enthussiast from 📍
+          <a href="https://goo.gl/maps/q2DGEFsoofAQUB4k6" target="_blank"
+            >Belgaum, India</a
+          >. I am currently a Diploma student studying Computer Science from
+          <a href="https://www.mlbpbgm.com/" target="_blank">
+            M.L. Bharatesh Polytechnic</a
+          >. Mostly I do backend development, but I'm also interested in
+          frontend development. My projects are listed below make sure to check
+          those out
+        </p>
+      </section>
+      <hr class="seperator" />
+      <section id="projects">
+        <h1 class="heading-4">Projects</h1>
+        <hr class="under-header shadow-red" />
+        <div id="cards">
+          <div class="project-card">
+            <span class="heading-5">⚕️ Medical Emergency (API)</span>
+            <p class="paragraph description" id="projects-pra">
+              <li class="chars">
+                This is a <a href="https://www.python.org/">Python</a> based
+                backend project.
+              </li>
+              <li class="chars">
+                Backend built with
+                <a href="https://www.djangoproject.com/">Django</a> and
+                <a href="https://www.mysql.com/">MySQL</a>.
+              </li>
+              <li class="chars">
+                API Service to report the nearest accident and medical
+                emergency.
+              </li>
+              <li class="chars">
+                In this project I learned about web sockets and implemented it.
+              </li>
+            </p>
+            <a
+              href="https://github.com/OmAximani0/medical-emergency"
+              class="view-code paragraph"
+              target="_blank"
+              >View Code</a
+            >
+          </div>
+          <div class="project-card">
+            <span class="heading-5">📍 Bus Tracking (API)</span>
+            <p class="paragraph description"  id="projects-pra">
+              <li class="chars">
+                This is a <a href="https://www.python.org/">Python</a> based
+                backend project.
+              </li>
+              <li class="chars">
+                Backend built with
+                <a href="https://www.djangoproject.com/">Django</a> and
+                <a href="https://www.mysql.com/">MySQL</a>.
+              </li>
+              <li class="chars">
+                This is an API service for providing endpoint for tracking bus.
+              </li>
+              <li class="chars">
+                This app will provide live location of the bus in your city.
+              </li>
+            </p>
+            <a
+              href="https://github.com/OmAximani0/bus-trcaking-api-heroku"
+              class="view-code paragraph"
+              target="_blank"
+              >View Code</a
+            >
+          </div>
+          <div class="project-card">
+            <span class="heading-5">🛍️ Medical Shop (API)</span>
+            <p class="paragraph description"  id="projects-pra">
+              <li class="chars">
+                This is a <a href="https://www.python.org/">Python</a> based
+                backend project.
+              </li>
+              <li class="chars">
+                Backend built with
+                <a href="https://www.djangoproject.com/">Django</a> and
+                <a href="https://www.mysql.com/">MySQL</a>.
+              </li>
+              <li class="chars">
+                This is similar to e-commers backend project.
+              </li>
+              <li class="chars">
+                In this project I learned about API Designing, File Processing &
+                Some complex queries.
+              </li>
+            </p>
+            <a
+              href="https://github.com/OmAximani0/medical-shop-api"
+              class="view-code paragraph"
+              target="_blank"
+              >View Code</a
+            >
+          </div>
+        </div>
+      </section>
+      <hr class="seperator" />
+      <section id="works">
+        <h1 class="heading-4" id="heading-4">Works</h1>
+        <hr class="under-header shadow-green" />
+        <div class="work-card">
+          <div class="w-card-title">
+            <img
+              src="assets/icons/logo.avif"
+              height="80px"
+              alt="Little Paws Care"
+            />
+            <span class="heading-5" id="heading-5">Web Developer (Internship)</span>
+          </div>
+          <p class="paragraph description">
+            <li class="charss">
+              This was my first internship in
+              <a href="https://www.littlepawscare.com/"
+                >Little Paws Care (NGO)</a
+              >
+            </li>
+            <li class="charss">
+              In this internship I worked on backend development tasks for the
+              website.
+            </li>
+            <li class="charss">I got experience about payment processing.</li>
+            <li class="charss">I got a opportunity to learn about CMS.</li>
+            <li class="charss">
+              <strong>Tech Stack : </strong>
+              <a href="https://nodejs.org/en/">NodeJS</a>,
+              <a href="https://expressjs.com/">Express JS</a>,
+              <a href="https://www.mongodb.com/">MogoDB</a>,
+              <a href="https://razorpay.com/">Razorpay</a>
+            </li>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p id="copyright">&copy;Om Aximani</p>
+      <div id="socials">
+        <a href="https://www.instagram.com/om_aximani/" target="_blank"
+          ><img src="assets/icons/insta.svg" alt="Instagram Icon" height="30px"
+        /></a>
+        <a href="https://twitter.com/OmAximani" target="_blank"
+          ><img src="assets/icons/tweeter.svg" alt="Tweeter Icon" height="30px"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/om-aximani-a11969247/"
+          target="_blank"
+          ><img
+            src="assets/icons/linkedin.svg"
+            alt="LinkedIn Icon"
+            height="30px"
+        /></a>
+        <a href="https://github.com/OmAximani0" target="_blank"
+          ><img src="assets/icons/github.svg" alt="GitHub Icon" height="30px"
+        /></a>
+      </div>
+      <p id="idk">Made with ❤️ by Om Aximani</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
